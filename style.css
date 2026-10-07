@@ -1,1 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: medium;
+  font-weight: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+/*Header styles*/
+#headerContainer > h1{
+  font-size: large;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  
+}
+
+#headerContainer > small{
+  font-size: small;
+  font-weight: normal;
+  
+}
+
+#headerContainer{
+  margin: 50px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: lightcyan;
+  box-shadow: 3px 3px rgba(0, 50, 50, 5.50);
+}
+
+
+
+#formContainer{
+  margin: 30px;
+  padding: 20px;
+  box-shadow: 1px 2px rgba(0, 50, 50, 5.50);
+  border-radius: 10px;
+  background-color: lightcyan;
+  text-align: center;
+
+  
+}
+
+#formContainer > #studentForm> .input-field{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#formContainer > #studentForm> .input-field > label{
+  font-size: small;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+  text-align: center;
+  
+}
+
+#formContainer > #studentForm> .input-field > label > small{
+  font-size: x-small;
+  font-weight: normal;
+  color: rgb(5, 5, 5);
+  
+}
+#listContainer > .list-item{
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+#listContainer > .list-item > h2{
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#listContainer > .list-item > p{
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+#listContainer > .list-item > button{
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
 
